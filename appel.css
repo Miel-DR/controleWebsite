@@ -20,7 +20,6 @@
 }
 
 .product-price {
-    font-size: 1.5rem;
     color: #2c7;
     margin: 1rem 0;
 }
@@ -32,6 +31,27 @@
     padding: 0.8rem 2rem;
     border-radius: 4px;
     cursor: pointer;
+}
+
+#KIMB {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#KAMM {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#KTOM {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .buy-button:hover {
