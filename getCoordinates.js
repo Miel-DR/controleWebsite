@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Get coordinates for all three elements
-    const buttonIds = ['KILB', 'KALM', 'KPLO'];
+    const buttonIds = ['KILB', 'KALM', 'KPLO', 'KIMB', 'KAMM', 'KTOM', 'KIRB', 'KPRM', 'KTRO'];
     const coordinates = {};
 
     buttonIds.forEach(id => {
